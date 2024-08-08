@@ -11,5 +11,6 @@ Click on this link to view a diagram of the Virtual Pet Simulator:
 
 ## Test Cases (TC) - Decision table
 
-Under the below link you can find the aimed test cases, focus only on the provided test cases as these cases are representative of the challenge's scope.
+These are the proposed test cases, focus only on the provided test cases as these cases are representative of the challenge's scope.
+
 ![alt text](<Hackathon_Decision table.png>)
