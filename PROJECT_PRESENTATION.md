@@ -1,7 +1,7 @@
 # Virtual Pet Simulator
 
 Welcome to the Virtual Pet Simulator challenge! In this project, your goal is to create and manage a virtual pet by balancing its core attributes: hunger, happiness, and energy.
-Users will interact with the pet by choosing from three different actions—Feeding, Playing, and Resting.
+Users will interact with the pet by choosing from three different actions: Feeding, Playing, and Resting.
 Each action will affect the pet's attributes in specific ways, and your challenge is to ensure the pet stays healthy and happy through balanced care.
 
 ![alt text](Happy-Pets-PNG.png)
@@ -22,5 +22,8 @@ These are the proposed test cases, your solution function should focus only on t
 
 Run the command `npm list` in your terminal to see if vitest is installed, if not install vitest.
 The test cases are in the file `main.test.js`, do not change this file.
-Use the file `main.js` to write your solution function.
+Use the file `main.js` to write your solution function, in this file is provided the overall problem statement and function skeleton.
 Run vitest to check if your solution passes the test.
+HAPPY PetCare!!
+
+![alt text](Happy_PetCare.jpg)

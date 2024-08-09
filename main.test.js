@@ -9,31 +9,16 @@ test("main test should pass", () => {
 
 import { petCare } from "./main";
 
-test("Feed pet will decrease hunger and increase energy", () => {
+test("Click Feed pet will decrease hunger and increase energy", () => {
   expect(petCare("Feed", "Hunger", "Energy")).toMatch("Hunger ⬇️ + Energy ⬆️"); //toMatch asserts if a string matches a regular expression or a string
 });
 
-test("Play with pet will increase hapinnes and decrease energy", () => {
-  expect(petCare("Play", "Hapiness", "Energy")).toMatch(
+test("Click Play with pet will increase happinnes and decrease energy", () => {
+  expect(petCare("Play", "Happiness", "Energy")).toMatch(
     "Happiness ⬆️ + Energy ⬇️"
   );
 });
 
-test("Pet Rest increases energy and increases hunger", () => {
+test("Click Pet Rest increases energy and increases hunger", () => {
   expect(petCare("Rest", "Energy", "Hunger")).toMatch("Energy ⬆️ + Hunger ⬆️");
 });
-
-/*import { test, expect } from "vitest";
-import { checkLength } from "./main.js";
-
-test("should return -1 for strings with an odd length", () => {
-  const expected = -1;
-  const actual = checkLength("table");
-  expect(actual).toBe(expected);
-});
-
-test("should return 1 for strings with an even length", () => {
-  const expected = 1;
-  const actual = checkLength("wizard");
-  expect(actual).toBe(expected);
-});*/
