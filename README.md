@@ -26,7 +26,7 @@ You will be making one kata each, but you will be in development teams. The aim 
 - Support: You should aim to help each other overcome issues if one of your team is stuck and cannot Google their way out of it
 - Testing: You can act as a first line user test for each others katas. You might find it a good idea to book in regular checkpoints to demo to each other and get initial feedback in quick bursts, making sure you can build in and adapt to any useful feedback before official release of your katas
 
-### 🎫 Ticket 2 - Plan your kata
+### 🎫 Ticket 2 - Plan your kata✅
 
 Attack this as you would any other problem - plan, plan, plan and use our agile approach to create steps that allow you to build MVPs and incrementally reach your stretch goals. Brainstorm options with a technique like Disney Ideation. Once you have a compelling challenge and story idea, start breaking it down. Think about the goals of your challenge, and the scenarios you could provide to test if people have reached those goals. Provide any examples or additional details that are necessary for someone taking on your kata to understand the problem, but don't give away so much that it removes the challenge. You want to strike a balance - not too vague but not spoon-feeding the solution either.
 
@@ -49,7 +49,7 @@ export function transformLength(string) {
 
 ℹ️ The reason for leaving the function body empty is that you want the people solving your kata to write their own implementation from scratch. Your role is to provide the overall problem statement and function skeleton. The solving and coding is up to them! Leaving an incomplete skeleton function helps point them in the right direction without giving away a full working solution.
 
-### 🎫 Ticket 3 - Write your kata
+### 🎫 Ticket 3 - Write your kata✅
 
 When drafting your test cases, consider the different inputs that could be passed to the solution function and any edge cases you want to account for. You could put into practice tools such as Equivalency Partitioning, Boundary Value Analysis, and Decision Tables if its useful. Think of test values that will thoroughly cover the expected functionality. The number of tests is up to you, but aim for sufficient coverage to validate correctness.
 
@@ -76,7 +76,7 @@ test("should return 1 for strings with an even length", () => {
 
 🎯 At this stage you should have a description of the problem in `main.js` and some tests in `main.test.js`.
 
-### 🎫 Ticket 4 - Check your tests
+### 🎫 Ticket 4 - Check your tests✅
 
 To verify your tests, temporarily add a working implementation to the solution function in `main.js`. Check that the tests fail before implementation and pass when the function is coded correctly. This validates that your tests accurately check for both incorrect and correct solutions. Remember to remove the solution code afterwards before sharing the kata.
 
@@ -100,14 +100,20 @@ Room: REPLACE_ME_WITH_YOUR_ROOM_NUMBER
 Name: REPLACE_ME_WITH_YOUR_NAME
 Link: REPLACE_ME_WITH_A_LINK_TO_YOUR_PUBLIC_GITHUB_REPO_CONTAINING_THE_KATA
 Overview: REPLACE_ME_WITH_A_BRIEF_DESCRIPTION_OF_WHAT_YOUR_KATA_IS_ABOUT
-```
+
+Room: ROOM 8
+Name: Carmen Vieira
+Link: https://github.com/SchoolOfCode/bc17-w6-hackathon-make-a-codewars-challenge-v3-otag30/blob/main/PROJECT_PRESENTATION.md
+Overview: Virtual Pet Simulator - Ultimate Pet Care without flees!! Feed, play and rest with your pet and find out how its energy, hunger and happiness is impacted. Happy PetCare!!
+
 
 If it's not public already, remember to change the visibility of your repository to public.
 
-### 🎫 Ticket 6 - Present you kata
+### 🎫 Ticket 6 - Present you kata✅
 
 Make sure you present your project in the markdown file - this will be assessed alongside your actual kata. Treat this as an asynchronous presentation - anything you would want to talk through (plans, brainstorming, final results, user feedback, etc) should go in here.
 
 ### 🎫 Ticket 7 - Complete katas from others
 
 To solve katas created by other bootcampers, first clone their repository using the shared link. `cd` into the folder, run `npm install` to get the dependencies, then implement a solution in main.js. Execute their test cases to validate your code against their requirements. Provide feedback on the clarity of their instructions, difficulty level, and effectiveness of the tests. Engaging with each other's challenges allows everyone to learn. Make sure to critique respectfully - creating a programming challenge is difficult!
+```

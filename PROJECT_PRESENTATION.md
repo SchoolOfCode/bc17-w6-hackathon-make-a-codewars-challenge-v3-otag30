@@ -22,8 +22,8 @@ These are the proposed test cases, your solution function should focus only on t
 
 Run the command `npm list` in your terminal to see if vitest is installed, if not install vitest.
 The test cases are in the file `main.test.js`, do not change this file.
-Use the file `main.js` to write your solution function, in this file is provided the overall problem statement and function skeleton.
-Run vitest to check if your solution passes the test.
+Use the file `main.js` to write your solution function, in this file the Kata scenario is provided as a comment, it also includes the start of an exported function for you to use to solve the problem.
+Once you have a solution, run vitest to check if your solution passes the test.
 HAPPY PetCare!!
 
 ![alt text](Happy_PetCare.jpg)
